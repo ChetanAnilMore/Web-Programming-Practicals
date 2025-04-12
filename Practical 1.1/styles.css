@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    overflow-y: hidden;
+    font-family: sans-serif;
+}
+
+.main {
+    height: 80vh;
+    width: 921px;
+    position: absolute;
+    background-color: white;
+    left: 5vw;
+    top: 10vh;
+    box-shadow:
+    3px 3px 2em rgba(0, 0, 0,0.5),
+    0em 0 2em rgba(0, 0, 0,0.5); 
+}
+.container {
+    display: inline-block;
+    height: 100vh;
+    width: 15vw;
+    background-color: #0079f1;
+}
+
+
+#left-element{
+    margin-right: 3rem;
+    height: 100%;
+    width: 8%;
+    display: inline-block;
+    background-color:#0079f1;
+    border-top-right-radius: 3rem 2rem;
+    border-bottom-right-radius: 3rem 2rem;
+    box-shadow:
+    3px 3px 2em rgba(0, 0, 0,0.5),
+    0em 0 2em rgba(0, 0, 0,0.5);
+
+}
+
+#navbar {
+    display: inline-block;
+    position: absolute;
+    top: 3rem;
+    left: 25rem;
+    color: black;
+    width: 50%;
+    align-items: right;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    width: 100%;
+    text-align: right;
+    color: #d0d0d0;
+}
+
+#logo {
+    display: inline-block;
+    position:absolute;
+    top: 4rem;
+}
+
+#logo img {
+    height: 3rem;
+}
+
+#table1 {
+    display: inline-block;
+    position: absolute;
+    top: 5rem;
+}
+
+td img {
+    height: 19rem;
+}
+
+#info p {
+    color: #0099e7;
+    font-size: 1rem;
+    font-weight: 900;
+    position: relative;
+    bottom: 4rem;
+}
+#info h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    position: relative;
+    bottom: 4rem;
+}
+
+#info button {
+    padding: 0.7rem 2.3rem;
+    background-color: #0079f1;
+    color: #a9d2e6;
+    border-radius: 25px;
+    border: #0079f1;
+    position: relative;
+    top: 2rem;
+}
+
+#table2 {
+    width: 70%;
+    display: inline-block;
+    position: relative;
+    bottom: 4rem;
+    margin-left: 1rem;
+}
+
+.lorem{
+    font-size: 9px;
+    color: #d0d0d0;
+}
+
+td h2 {
+    color: #0099e7;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+td h5 {
+    color: #80828a;
+    font-size: 0.7rem;
+}
+
+#table2 tr td {
+    width: 14rem;
+    border-left: 1px solid black;
+    padding-left: 10px;
+}
+
+#td3 {
+    border-right: 1px solid black;
+}
+
+#four-dots{
+    height: 50px;
+    position: relative;
+    bottom: 8rem;
+}
